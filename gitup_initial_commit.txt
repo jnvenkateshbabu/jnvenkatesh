@@ -70,7 +70,7 @@ Feature: verify the student qualification
     @engineering
   Scenario: Eligibility of engineering
     Given math che phy mark is high
-    
+    first modification
     When yes math criteria matched
     
     Then qualified for engineering
